@@ -11,6 +11,11 @@ describe('Coolculator', function() {
     expect(result).to.equal(5)
   })
 
+  it('should add', function() {
+    result = mm.add(2, 3, 7, 10)
+    expect(result).to.equal(22)
+  })
+
   it('should multiply', function() {
     result = mm.multiply(2, 3)
     expect(result).to.equal(6)

@@ -50,9 +50,6 @@ Once you understand what's going on, **ANSWER THE QUESTION IN THIS README FILE**
 Look in [`array.test.js`](test/array.test.js). This contains some tests for JavaScript's built-in Array methods.
 
 **What do the existing tests actually test (explain in english)?**
-The array.test.js has two different tests currently.
-1.Adding an item to an array
-2.Altering the length of an array
 
 **Add a test for the `pop()` method.**
 Hint: You'll need _two_ assertions to fully test that it `pop()` works. Explain why you chose these assersions here.
@@ -66,10 +63,8 @@ Until now, we've been testing JavaScript's in-built functionality, which is kind
 Read The coolculator class and tests.
 
 **What methods does the Cooclulator currently implement?**
-implements the 'add' method
 
 **Describe how the existing test works**
-it calls the add function and passes in two values which we know to be true. Expected result should be equal to true.
 
 **Change a value in the `add()` test so it fails.**
 Once you've seen it fail, revert your change so it's green again.

@@ -63,8 +63,10 @@ Until now, we've been testing JavaScript's in-built functionality, which is kind
 Read The coolculator class and tests.
 
 **What methods does the Cooclulator currently implement?**
+add function
 
 **Describe how the existing test works**
+tests to values which tester believes to be true, asset equals to be true.
 
 **Change a value in the `add()` test so it fails.**
 Once you've seen it fail, revert your change so it's green again.
@@ -75,8 +77,10 @@ Once you've seen it fail, revert your change so it's green again.
 Now let's do some TDD! Uncomment the `multiply()` test.
 
 **What do you expect to happen when you run your tests?**
+fail
 
 **What actually happened when you ran your tests?**
+fail - not a function
 
 **Add a method to the Coolculator so the test passes green**
 

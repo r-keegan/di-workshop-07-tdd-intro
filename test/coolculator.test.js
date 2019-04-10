@@ -11,15 +11,23 @@ describe('Coolculator', function() {
     expect(result).to.equal(5)
   })
 
-  // Uncomment this 👇
-  // it('should multiply', function() {
-  //   result = mm.multiply(2, 3)
-  //   expect(result).to.equal(6)
-  // })
+  it('should multiply', function() {
+    result = mm.multiply(2, 3)
+    expect(result).to.equal(6)
+  })
 
-  // Uncomment this 👇
-  // it('should subtract', function() {
-  //   result = mm.subtract(3, 2)
-  //   expect(result).to.equal(1)
-  // })
+  it('should subtract', function() {
+    result = mm.subtract(3, 2)
+    expect(result).to.equal(1)
+  })
+
+  it('should divide', function() {
+    result = mm.divide(6, 2)
+    expect(result).to.equal(3)
+  })
+
+  it('should return highest num', function() {
+    result = mm.highest(7, 3)
+    expect(result).to.equal(7)
+  })
 })
